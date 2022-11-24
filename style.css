@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+img {
+width: 100%;
+height: 100%;
+}
+
+.maintitle {
+    font-size: 6rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Great Vibes', cursive;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(184, 220, 171, 1);
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    font-size: 1.8rem;
+    
+}
+ul li a {
+    color: black;
+    text-decoration: none;}
+
+div ul li {
+    margin-right: 2rem;
+}
+.imageheader-container {
+    height: 10vh;
+    margin-left: 2.5rem;
+}
+
+.imageheader-container a img {
+    border-radius: 50%;
+}
+
+#section1 {
+    height: 90vh;
+    background-image: url(assets/bgindex.jpeg);
+}
