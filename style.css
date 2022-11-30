@@ -98,10 +98,26 @@ footer {
     background-color: rgba(184, 220, 171, 1);
 }
 
-#section4, #section5, #section6 {
+#section4, #section5, #section6, #section7 {
     display:flex;
+    justify-content: space-around;
 }
+
+
 
 #section4 div, {
     height: 35vh;
+}
+
+.salonpicandloc {
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.salonpicandloc div img {
+    border-radius: 15px;
+}
+.salonpicandlocclass1 {
+    flex: 1;
 }
