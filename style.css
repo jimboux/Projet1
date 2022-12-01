@@ -165,6 +165,22 @@ footer {
     margin-top: 5vh;
 }
 
+.soustitrecontact {
+    text-align: center;
+}
+#maincomponent {
+    display: flex;
+}
+#maincomponent #form {
+    flex: 1;
+}
+#maincomponent #maintxt {
+    flex: 2;
+}
+.maps {
+    display: flex;
+}
+
 .button1 {
     border: 0;
     line-height: 2.5;
