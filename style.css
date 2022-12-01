@@ -206,8 +206,10 @@ footer {
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
+    transition: 0.4s;
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: whitesmoke;
+    color: rgba(184, 220, 171, 1);
   }
