@@ -30,6 +30,17 @@ h2 {
 h3 {
     font-family: 'Great Vibes', cursive;
     font-size: 2rem;
+    width: 15vw;
+}
+.logotitre2 {
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    width: 95vw;
+    margin-top: 3vh;
+}
+.logopied {
+    width: 10vw;
 }
 
 header {
@@ -67,11 +78,6 @@ div ul li {
     background-size: cover;
     background-image: url(assets/bgindex.jpeg);
 }
-.logotitre2 {
-    display: flex;
-    height: 12vh;
-    width: 10vw;
-}
 
 .logotitre2 img {
     height: 100%;
@@ -79,21 +85,18 @@ div ul li {
 }
 #section2 {
     display: flex;
+    justify-content: space-between;
     height: 50vh;
     width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 10vh;
-    margin-top: 5vh;
+    margin: 5vh 10vw 10vh 10vw;
+}
+#section2 p, #section2 div {
+    flex: 1;
+    
 }
 #section2 p {
-    flex: 1;
+    margin-right: 10% ;
 }
-#section2 div {
-    flex: 1;
-}
-
-
 
 footer, footer div{
     height: 10vh;
@@ -165,3 +168,24 @@ footer {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 15vh;
+    right: 5vw;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(184, 220, 171, 1);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  
