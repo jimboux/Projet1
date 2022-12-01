@@ -84,7 +84,7 @@ div ul li {
     height: 100%;
     margin-left: 8vw;
 }
-#section2, #section4 {
+#section2, #section4, #section6 {
     display: flex;
     justify-content: space-between;
     height: 50vh;
@@ -112,7 +112,7 @@ div ul li {
     margin-left: 10%;
 }
 
-#section2 p, #section4 p {
+#section2 p, #section4 p, #section6 p {
     margin-right: 10% ;
 }
 
@@ -130,6 +130,11 @@ footer {
 #section4, #section5, #section6, #section7 {
     display:flex;
     justify-content: space-around;
+}
+
+#section6 div {
+    flex:1;
+    height: 50vh;
 }
 
 #section4 div {
