@@ -311,10 +311,6 @@ footer {
   }
 }
 
-/* .contactmap {
-  width: 20%;
-  border-radius: 35px;
-} */
 .map1 iframe,
 .map2 iframe {
   border-radius: 15px;
@@ -338,4 +334,47 @@ footer {
 
 .coordo1 p, .coordo2 p {
   margin-left: 8%;
+}
+.map1 div, .map2 div {
+  display: flex;
+}
+
+.map1 p, .map2 p {
+  margin-left: 8%;
+  margin-bottom: 8%;
+}
+
+#formulaire input, #formulaire textarea {
+  border: none;
+}
+
+
+.submit1 {
+  width: 100%;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(184, 220, 171, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.submit1:hover {
+  background-color: rgb(152, 195, 136);
+}
+
+.submit1:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
