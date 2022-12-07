@@ -78,18 +78,17 @@ div ul li {
 }
 
 #section1 {
- 
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/bgindex.jpeg);
 }
 
-.contactbody { height: 80vh;
+.contactbody {
+  height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/contactbg.jpg);
   display: flex;
-
 }
 
 .logotitre2 img {
@@ -122,7 +121,6 @@ div ul li {
 #section7 {
   height: 100vh;
 }
-
 
 #section2 p,
 #section2 div {
@@ -304,7 +302,6 @@ footer {
   top: 0;
 }
 
-
 @media screen and (max-width: 800px) {
   .navbar {
     display: none;
@@ -312,25 +309,33 @@ footer {
   .navbar-mobile {
     display: block;
   }
-};
+}
 
-.contactmap {
+/* .contactmap {
   width: 20%;
   border-radius: 35px;
-}
-.map1 iframe {
+} */
+.map1 iframe,
+.map2 iframe {
   border-radius: 15px;
+  width: 80%;
+  height: 80%;
 }
 
 .coordo {
   display: flex;
   text-align: center;
   width: 50%;
-    flex-direction: column;
-    margin-left: 30%;
-    margin-top: 3%;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-top: 3%;
 }
-.coordo1, .coordo2 {
+.coordo1,
+.coordo2 {
   display: flex;
   margin-bottom: 5%;
+}
+
+.coordo1 p, .coordo2 p {
+  margin-left: 8%;
 }
