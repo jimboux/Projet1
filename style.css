@@ -29,7 +29,7 @@ h2 {
   font-size: 4rem;
   font-family: "Great Vibes", cursive;
   text-align: center;
-  margin-top: 3rem;
+  padding-top: 3rem;
 }
 
 h3 {
@@ -78,10 +78,18 @@ div ul li {
 }
 
 #section1 {
-  height: 90vh;
+ 
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/bgindex.jpeg);
+}
+
+.contactbody { height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(assets/contactbg.jpg);
+  display: flex;
+
 }
 
 .logotitre2 img {
@@ -173,7 +181,7 @@ footer {
 }
 .salonpicandlocclass1 {
   flex: 1;
-  margin: 2.5% 2.5% 2.5% 2.5%;
+  margin: 2.5%;
   border-radius: 15px;
   min-width: 20vw;
 }
@@ -192,16 +200,26 @@ footer {
 #maincomponent {
   display: flex;
   height: 62.3vh;
-  align-items: center;
 }
 #maincomponent #form {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 #maincomponent #maintxt {
   flex: 2;
 }
 .maps {
   display: flex;
+  justify-content: space-around;
+}
+
+.contactcontent {
+  background-color: rgba(217, 217, 217, 0.7);
+  width: 70%;
+  margin: auto;
+  border-radius: 30px;
+  height: 80%;
 }
 
 .button1 {
@@ -295,3 +313,24 @@ footer {
     display: block;
   }
 };
+
+.contactmap {
+  width: 20%;
+  border-radius: 35px;
+}
+.map1 iframe {
+  border-radius: 15px;
+}
+
+.coordo {
+  display: flex;
+  text-align: center;
+  width: 50%;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+.coordo1, .coordo2 {
+  display: flex;
+  margin-bottom: 5%;
+}
