@@ -63,10 +63,28 @@ ul {
 ul li a {
   color: black;
   text-decoration: none;
+  position: relative;
+}
+ul li a:hover {
+  color: white;
+}
+ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10%;
+  transition: 0.5s;
+}
+ul li a:hover:after {
+  width: 100%;
 }
 
+
 div ul li {
-  margin-right: 2rem;
+  margin: 0 1rem;
 }
 .imageheader-container {
   height: 10vh;
@@ -81,10 +99,11 @@ div ul li {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/bgindex.jpeg);
+  height: 90vh;
 }
 
 .contactbody {
-  height: 80vh;
+  height: 160vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/contactbg.jpg);
@@ -197,19 +216,23 @@ footer {
 }
 #maincomponent {
   display: flex;
-  height: 62.3vh;
+  height: 85%;
 }
 #maincomponent #form {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
+
 #maincomponent #maintxt {
   flex: 2;
 }
 .maps {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 60%;
 }
 
 .contactcontent {
@@ -323,8 +346,8 @@ footer {
   text-align: center;
   width: 50%;
   flex-direction: column;
-  margin-left: 30%;
-  margin-top: 3%;
+  margin-left: 10%;
+  margin-top: 10%;
 }
 .coordo1,
 .coordo2 {
@@ -332,22 +355,25 @@ footer {
   margin-bottom: 5%;
 }
 
-.coordo1 p, .coordo2 p {
+.coordo1 p,
+.coordo2 p {
   margin-left: 8%;
 }
-.map1 div, .map2 div {
+.map1 div,
+.map2 div {
   display: flex;
 }
 
-.map1 p, .map2 p {
+.map1 p,
+.map2 p {
   margin-left: 8%;
   margin-bottom: 8%;
 }
 
-#formulaire input, #formulaire textarea {
+#formulaire input,
+#formulaire textarea {
   border: none;
 }
-
 
 .submit1 {
   width: 100%;
