@@ -23,3 +23,11 @@ icon.addEventListener("click", function(){
   console.log("pwet");
   list.classList.toggle("list-visible");
 });
+
+
+window.addEventListener('scroll', function(){
+  let hauteur = this.document.documentElement.scrollTop;
+  if(hauteur === 0){
+    icon.style.display = "block";
+  } else {icon.style.display = "none";}
+})
