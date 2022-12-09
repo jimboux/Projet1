@@ -6,6 +6,7 @@
   list-style: none;
   text-decoration: none;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -103,12 +104,12 @@ div ul li {
 }
 
 .contactbody {
-  /* height: 160vh; */
   padding: 20px 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/contactbg.jpg);
   display: flex;
+  height: 80vh;
 }
 
 .logotitre2 img {
@@ -169,6 +170,9 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(184, 220, 171, 1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 #section4,
@@ -242,7 +246,6 @@ footer {
   width: 70%;
   margin: auto;
   border-radius: 30px;
-  height: 80%;
 }
 
 .button1 {
@@ -323,94 +326,9 @@ footer {
   top: 3%;
   right: 1.5rem;
 }
-
 .list-visible {
   top: 0;
 }
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
-@media screen and (max-width: 867px) {
-  .navbar {
-    display: none;
-  }
-  #section7 {
-    height: 100%;
-  }
-  .navbar-mobile {
-    display: block;
-  }
-  #section4,
-  #section5 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #section2,
-  #section7 {
-    display: block;
-  }
-  #section6 {
-    display: block;
-    height: 100%;
-  }
-  #section4,
-  #section5 {
-    height: 80%;
-  }
-  #section1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 40vh;
-  }
-  h1 {
-    padding: 0;
-    font-size: 3.5rem;
-  }
-  h2 {
-    font-size: 3rem;
-  }
-  h3 {
-    font-family: "Great Vibes", cursive;
-    font-size: 1.3rem;
-    width: 55vw;
-  }
-  .logotitre2 {
-    height: 6vh;
-  }
-  #maincomponent {
-    display: flex;
-    flex-direction: column;
-  }
-  #maincomponent #form {
-    display: flex;
-    align-items: flex-start;
-    margin: 20px;
-  }
-  #form {
-    height: 30%;
-  }
- 
-  #maintxt {
-    height: 50%;
-  }
-
-  .section1bis {
-    display: flex;
-    height: 160vh;
-    flex-direction: column;
-  }
-  .title3index,
-  #section3 {
-    display: none;
-  }
-  .maps {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-  }
-}
-
 .map1 iframe,
 .map2 iframe {
   border-radius: 15px;
@@ -429,7 +347,7 @@ footer {
 .coordo1,
 .coordo2 {
   display: flex;
-  margin-bottom: 5%;
+  margin-bottom: 10px;
 }
 
 .coordo1 p,
@@ -498,4 +416,93 @@ footer {
 #form form textarea {
   width: 100%;
   height: 50%;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+@media screen and (max-width: 867px) {
+  .navbar {
+    display: none;
+  }
+  #section7 {
+    height: 100%;
+  }
+  .navbar-mobile {
+    display: block;
+  }
+  #section4,
+  #section5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section2,
+  #section7 {
+    display: block;
+  }
+  #section6 {
+    display: block;
+    height: 100%;
+  }
+  #section4,
+  #section5 {
+    height: 80%;
+  }
+  #section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+  }
+  h1 {
+    padding: 0;
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-family: "Great Vibes", cursive;
+    font-size: 1.3rem;
+    width: 55vw;
+  }
+  .logotitre2 {
+    height: 6vh;
+  }
+  #maincomponent {
+    display: flex;
+    flex-direction: column;
+  }
+  #maincomponent #form {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  #form {
+    height: 30%;
+  }
+
+  #maintxt {
+    height: 50%;
+  }
+
+  .section1bis {
+    display: flex;
+    height: 160vh;
+    flex-direction: column;
+  }
+  .title3index,
+  #section3 {
+    display: none;
+  }
+  .maps {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .contactbody {
+    margin-bottom: 10vh;
+    height: 100%;
+  }
 }
