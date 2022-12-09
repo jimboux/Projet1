@@ -103,7 +103,8 @@ div ul li {
 }
 
 .contactbody {
-  height: 160vh;
+  /* height: 160vh; */
+  padding: 20px 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(assets/contactbg.jpg);
@@ -234,7 +235,6 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 60%;
 }
 
 .contactcontent {
@@ -250,6 +250,7 @@ footer {
   line-height: 2.5;
   padding: 0 20px;
   font-size: 1rem;
+  cursor: pointer;
   text-align: center;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px #000;
@@ -384,13 +385,12 @@ footer {
   #maincomponent #form {
     display: flex;
     align-items: flex-start;
-}
+    margin: 20px;
+  }
   #form {
     height: 30%;
   }
-  .maps {
-    display: block;
-  }
+ 
   #maintxt {
     height: 50%;
   }
@@ -400,20 +400,21 @@ footer {
     height: 160vh;
     flex-direction: column;
   }
-  .title3index, #section3 {
+  .title3index,
+  #section3 {
     display: none;
   }
   .maps {
     display: flex;
     flex-direction: column;
     align-content: center;
-    height: 60vh;
   }
 }
 
 .map1 iframe,
 .map2 iframe {
   border-radius: 15px;
+  margin: 10px 0;
   width: 80%;
   height: 80%;
 }
@@ -423,8 +424,7 @@ footer {
   text-align: center;
   width: 50%;
   flex-direction: column;
-  margin-left: 10%;
-  margin-top: 10%;
+  margin: 3% 0 3% 20%;
 }
 .coordo1,
 .coordo2 {
@@ -464,6 +464,7 @@ footer {
   line-height: 2.5;
   padding: 0 20px;
   font-size: 1rem;
+  cursor: pointer;
   text-align: center;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px #000;
@@ -490,7 +491,6 @@ footer {
 
 #form form {
   width: 70%;
-  height: 50%;
 }
 #form form input {
   width: 70%;
