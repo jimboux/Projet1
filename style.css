@@ -7,9 +7,7 @@
   text-decoration: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 p,
 #section5 ul li {
   font-size: 1rem;
@@ -22,6 +20,7 @@ img {
 
 h1 {
   font-size: 6rem;
+  font-weight: 400;
   padding: 2rem 0 0 2rem;
   font-family: "Great Vibes", cursive;
 }
@@ -29,6 +28,7 @@ h1 {
 h2 {
   font-size: 4rem;
   font-family: "Great Vibes", cursive;
+  font-weight: 400;
   text-align: center;
   padding-top: 3rem;
 }
@@ -299,7 +299,9 @@ footer {
   background-color: whitesmoke;
   color: rgba(184, 220, 171, 1);
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .nav-list-mobile {
   position: fixed;
   width: 100%;
@@ -311,6 +313,7 @@ footer {
   text-align: center;
   background-color: rgba(184, 220, 171, 1);
   left: 0;
+  z-index: 999;
 }
 .nav-list-mobile li {
   color: black;

@@ -20,7 +20,6 @@ const icon = document.querySelector(".fa-bars");
 const list = document.querySelector(".nav-list-mobile");
 
 icon.addEventListener("click", function(){
-  console.log("pwet");
   list.classList.toggle("list-visible");
 });
 
