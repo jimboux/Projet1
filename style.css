@@ -54,6 +54,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(184, 220, 171, 1);
+  height: 10vh;
 }
 
 ul {
@@ -88,13 +89,15 @@ div ul li {
 }
 .imageheader-container {
   height: 10vh;
-  margin-left: 2.5rem;
+  margin-left: 5%;
 }
 
 .imageheader-container a img {
   border-radius: 50%;
 }
-
+.logoinsta {
+  height: 10vh;
+}
 #section1 {
   background-repeat: no-repeat;
   background-size: cover;
